@@ -51,17 +51,15 @@ body {
 }
 .welcome_links {
     /* Behavior */
-    gap: 10px;
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: space-between;
 }
 .link_button {
     /* Button */
     width: 180px;
     border: 2px solid #a0ff00;
-    padding: 9px 0;
+    padding: 7px 0;
     border-radius: 15px;
     /* Text */
     color: white;
@@ -69,4 +67,13 @@ body {
     text-align: center;
     font-weight: 300;
     text-decoration: none;
+    margin: 5%;
+    /* Organize */
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+.link_button:hover {
+        background-color: #04ae1a;
+
 }
